@@ -22,6 +22,7 @@ public class Problems {
     }
 
     // DFS - inorder, preorder, postorder
+
     // Apply inorder on left subtree of root node -> Data of root node -> apply preorder on right subtree of root node
     public static void inOrderTraversal(BinarySearchTree<Integer> tree) {
         inOrderTraversalRecursively(tree.root());
@@ -68,6 +69,17 @@ public class Problems {
         }
     }
 
+    public static int findTreeHeight(BinarySearchTree<Integer> tree) {
+        if(tree.root().isEmpty()) return 0;
+        return findHeightOfTreeRecursively(tree.root());
+    }
+
+    public static<T> int findHeightOfTreeRecursively(Optional<BinaryNode<T>> nodeMayBe) {
+        if(nodeMayBe.isEmpty()) return -1;
+        BinaryNode<T> node = nodeMayBe.get();
+        return 1 + Math.max(findHeightOfTreeRecursively(node.left), findHeightOfTreeRecursively(node.right));
+    }
+
     public static void main(String[] args) {
         Comparator<Integer> comparator = (Integer a, Integer b) -> {
             return Integer.compare(a, b);
@@ -82,11 +94,27 @@ public class Problems {
 
         System.out.println("Pre-order traversal");
         preOrderTraversal(bst);
+
         System.out.println("In-order traversal");
         inOrderTraversal(bst);
+
         System.out.println("Post-order traversal");
         postOrderTraversal(bst);
+
         System.out.println("Level-order traversal");
         leverOrderTraversal(bst);
+
+        System.out.println("Tree height:"+ findTreeHeight(bst));
+        BinarySearchTree<Integer> skewedBst = new BinarySearchTree(comparator);
+        skewedBst.insert(100);
+        skewedBst.insert(90);
+        skewedBst.insert(80);
+        skewedBst.insert(70);
+        skewedBst.insert(60);
+        System.out.println("Skewed tree height:"+ findTreeHeight(skewedBst));
+        System.out.println("Empty tree height:"+ findTreeHeight(new BinarySearchTree(comparator)));
+        BinarySearchTree<Integer> singleNodeBT = new BinarySearchTree(comparator);
+        singleNodeBT.insert(100);
+        System.out.println("Single node tree height:"+ findTreeHeight(singleNodeBT));
     }
 }
