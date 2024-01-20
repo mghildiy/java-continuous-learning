@@ -32,7 +32,7 @@ public class CreatingAndRunningThread {
             System.out.println("Lambda for Runnable:"+ Thread.currentThread().getName());
         };
 
-        Thread t = new Thread(task);
+        Thread t = new Thread(task, "Runnable-By-lambda");
         t.start();
     }
 
