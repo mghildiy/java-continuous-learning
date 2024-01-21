@@ -1,4 +1,4 @@
-package system.design.ratelimiter.tokenbucket.identifiers;
+package system.design.ratelimiter.identifiers;
 
 public sealed interface Identifier permits APIKey, EmailId {
     String value();

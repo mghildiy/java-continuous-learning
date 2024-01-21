@@ -1,4 +1,4 @@
-package system.design.ratelimiter.tokenbucket.identifiers;
+package system.design.ratelimiter.identifiers;
 
 public record APIKey(String key) implements Identifier {
     @Override
