@@ -30,7 +30,6 @@ public class FixedWindow implements RateLimiter {
         Optional<Window> mayBeWindow = Optional.ofNullable(this.idByWindow.get(id));
         if(mayBeWindow.isPresent()) {
             Window window = mayBeWindow.get();
-            System.out.println("Current counter:"+window.counter);
             if(window.startTime / 1_000_000_000.0 + this.windowSize > System.nanoTime() / 1_000_000_000.0 ) {
                 if(window.counter < this.max) {
                     window.counter += 1;
