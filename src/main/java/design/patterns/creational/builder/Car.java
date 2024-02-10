@@ -1,4 +1,4 @@
-package design.patterns.structural.builder;
+package design.patterns.creational.builder;
 
 public class Car {
     // mandatory features

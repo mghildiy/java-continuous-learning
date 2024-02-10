@@ -1,6 +1,6 @@
-package design.patterns.structural.abstractfactory.mac;
+package design.patterns.creational.abstractfactory.mac;
 
-import design.patterns.structural.abstractfactory.CheckBox;
+import design.patterns.creational.abstractfactory.CheckBox;
 
 public class MacCheckBox implements CheckBox {
     @Override

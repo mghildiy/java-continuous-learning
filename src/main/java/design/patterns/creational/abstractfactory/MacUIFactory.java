@@ -1,7 +1,7 @@
-package design.patterns.structural.abstractfactory;
+package design.patterns.creational.abstractfactory;
 
-import design.patterns.structural.abstractfactory.mac.MacButton;
-import design.patterns.structural.abstractfactory.mac.MacCheckBox;
+import design.patterns.creational.abstractfactory.mac.MacButton;
+import design.patterns.creational.abstractfactory.mac.MacCheckBox;
 
 public class MacUIFactory implements UIFactory{
     @Override

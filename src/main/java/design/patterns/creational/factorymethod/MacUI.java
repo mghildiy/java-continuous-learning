@@ -1,4 +1,4 @@
-package design.patterns.structural.factorymethod;
+package design.patterns.creational.factorymethod;
 
 public class MacUI extends UI {
     @Override

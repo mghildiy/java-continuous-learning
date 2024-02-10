@@ -1,4 +1,4 @@
-package design.patterns.structural.builder;
+package design.patterns.creational.builder;
 
 /*
 creational design pattern that lets you construct complex objects step by step.

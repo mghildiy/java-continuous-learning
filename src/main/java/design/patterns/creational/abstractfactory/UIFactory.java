@@ -1,4 +1,4 @@
-package design.patterns.structural.abstractfactory;
+package design.patterns.creational.abstractfactory;
 
 public interface UIFactory {
 

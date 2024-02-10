@@ -1,4 +1,4 @@
-package design.patterns.structural.abstractfactory;
+package design.patterns.creational.abstractfactory;
 
 /*
 creational design pattern that lets you produce families of related objects without specifying their concrete classes

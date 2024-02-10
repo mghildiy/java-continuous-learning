@@ -1,7 +1,7 @@
-package design.patterns.structural.abstractfactory;
+package design.patterns.creational.abstractfactory;
 
-import design.patterns.structural.abstractfactory.windows.WindowsButton;
-import design.patterns.structural.abstractfactory.windows.WindowsCheckBox;
+import design.patterns.creational.abstractfactory.windows.WindowsButton;
+import design.patterns.creational.abstractfactory.windows.WindowsCheckBox;
 
 public class WindowsUIFactory implements UIFactory{
     @Override

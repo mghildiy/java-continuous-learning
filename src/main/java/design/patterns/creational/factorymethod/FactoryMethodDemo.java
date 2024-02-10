@@ -1,4 +1,4 @@
-package design.patterns.structural.factorymethod;
+package design.patterns.creational.factorymethod;
 
 /*
 design pattern that provides an interface for creating objects of same type OR

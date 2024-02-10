@@ -1,6 +1,6 @@
-package design.patterns.structural.abstractfactory.windows;
+package design.patterns.creational.abstractfactory.windows;
 
-import design.patterns.structural.abstractfactory.CheckBox;
+import design.patterns.creational.abstractfactory.CheckBox;
 
 public class WindowsCheckBox implements CheckBox {
     @Override

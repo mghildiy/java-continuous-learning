@@ -1,6 +1,6 @@
-package design.patterns.structural.abstractfactory.windows;
+package design.patterns.creational.abstractfactory.windows;
 
-import design.patterns.structural.abstractfactory.Button;
+import design.patterns.creational.abstractfactory.Button;
 
 public class WindowsButton implements Button {
     @Override
