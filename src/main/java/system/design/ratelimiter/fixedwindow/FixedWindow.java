@@ -1,4 +1,4 @@
-package system.design.ratelimiter.slidingwindow;
+package system.design.ratelimiter.fixedwindow;
 
 import system.design.ratelimiter.RateLimiter;
 import system.design.ratelimiter.identifiers.Identifier;

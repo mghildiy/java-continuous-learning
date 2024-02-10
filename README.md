@@ -38,3 +38,15 @@
 # MicroProfile
 # Opentelemetry/observability
 
+API design principles:
+ * Use commonly used data format standards for communication, like JSON
+ * Use nouns instead of verbs in endpoint paths. HTTP request method already has the verb.
+   
+   /articles/, not /getArticles/
+ * Use logical nesting on endpoints....to get comments for an article better to have /articles/:articleId/comments
+ * Handle errors gracefully and return standard error codes so that users can understand the issue when error happens
+ * Allow filtering, sorting, and pagination for better performance
+ * Maintain good security practices...TLS for encryption, OAuth for authorization etc, role based access,API keys
+ * Cache data to improve performance
+ * Versioning APIs..semantic versioning
+ * Good documentation

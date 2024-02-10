@@ -5,7 +5,7 @@ import system.design.ratelimiter.RateLimiter;
 import system.design.ratelimiter.identifiers.APIKey;
 import system.design.ratelimiter.identifiers.EmailId;
 import system.design.ratelimiter.identifiers.Identifier;
-import system.design.ratelimiter.slidingwindow.FixedWindow;
+import system.design.ratelimiter.fixedwindow.FixedWindow;
 
 import static junit.framework.TestCase.assertEquals;
 
