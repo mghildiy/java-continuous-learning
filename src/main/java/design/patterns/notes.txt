@@ -3,6 +3,7 @@ Creational pattern: For creation of objects
     Abstract factory/Factory of factories
     Singleton
     Builder
+    Prototype: Enables cloning of an object having a hierarchical structure without knowing internals of it
 
 Structural patterns: To enable combining objects into flexible structures
     Adapter: Make objects with incompatible interfaces work together by introducing an adapter between
@@ -11,4 +12,8 @@ Structural patterns: To enable combining objects into flexible structures
     Composite: When we have a structure consisting of a tree hierarchy of objects(via composition) and
     we need all objects in the structure to exhibit certain common behaviour, like rotating/translating all
     child objects in a scenegraph
+    Facade: Enables us to work easily with a complex system via a simple interface(facade),
+    which otherwise needs lots of complexities to be handled in your code like instantiating objects, tracking them
+    invoking methods in a specific order etc. Good example is driver manager for JDBC drivers that enable us to execute SQL
+    queries without us handling internal complexities of connection, statement etc.
 
