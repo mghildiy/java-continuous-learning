@@ -1,0 +1,11 @@
+Creational pattern: For creation of objects
+Factory method
+Abstract factory/Factory of factories
+Singleton
+Builder
+
+Structural patterns: To enable combining objects into flexible structures
+Adapter: Make objects with incompatible interfaces work together by introducing an adapter between
+Bridge: Organizing classes into different hierarchies instead of having all dimensions of evolution in same hierarchy
+ so that they can evolve independently. Then use HAS-A relationship to combine those hierarchies.
+
