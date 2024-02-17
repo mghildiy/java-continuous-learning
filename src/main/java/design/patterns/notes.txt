@@ -22,3 +22,9 @@ Structural patterns: To enable combining objects into flexible structures
     its main task, proxy object cab be instead used which performs those additional tasks before delegating request
     to main component
 
+Behavioural patterns: To assign responsibilities amongst objects
+    Chain-of-Responsibility: If a request needs to be processed for multiple contexts, then instead of putting all processing
+    in same object(violating S,O of SOLID) we implement handling of those contexts in stand alone objects(handlers), and then chain
+    together those handlers to process the request
+
+
