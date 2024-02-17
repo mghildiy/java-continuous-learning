@@ -18,4 +18,7 @@ Structural patterns: To enable combining objects into flexible structures
     queries without us handling internal complexities of connection, statement etc.
     Flyweight: Enables creation of large number of expensive objects(too much memory, too much time) by sharing properties
     which are same across objects, and hence can be influenced by client(extrinsic properties)
+    Proxy: If a component performs a task but doesnt perform some other basic tasks we need it to do before performing
+    its main task, proxy object cab be instead used which performs those additional tasks before delegating request
+    to main component
 
