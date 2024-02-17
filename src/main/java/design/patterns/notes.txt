@@ -11,9 +11,11 @@ Structural patterns: To enable combining objects into flexible structures
      in same hierarchy so that they can evolve independently. Then use HAS-A relationship to combine those hierarchies.
     Composite: When we have a structure consisting of a tree hierarchy of objects(via composition) and
     we need all objects in the structure to exhibit certain common behaviour, like rotating/translating all
-    child objects in a scenegraph
+    child objects in a scenegraph in a graphics program
     Facade: Enables us to work easily with a complex system via a simple interface(facade),
     which otherwise needs lots of complexities to be handled in your code like instantiating objects, tracking them
     invoking methods in a specific order etc. Good example is driver manager for JDBC drivers that enable us to execute SQL
     queries without us handling internal complexities of connection, statement etc.
+    Flyweight: Enables creation of large number of expensive objects(too much memory, too much time) by sharing properties
+    which are same across objects, and hence can be influenced by client(extrinsic properties)
 
