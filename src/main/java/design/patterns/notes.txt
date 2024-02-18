@@ -26,5 +26,7 @@ Behavioural patterns: To assign responsibilities amongst objects
     Chain-of-Responsibility: If a request needs to be processed for multiple contexts, then instead of putting all processing
     in same object(violating S,O of SOLID) we implement handling of those contexts in stand alone objects(handlers), and then chain
     together those handlers to process the request
+    Command: Encapsulates a request as a stand alone object that contains all information about the request
+     so that commands can be moved around, queued, delayed or support undo operations
 
 
