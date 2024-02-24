@@ -28,5 +28,9 @@ Behavioural patterns: To assign responsibilities amongst objects
     together those handlers to process the request
     Command: Encapsulates a request as a stand alone object that contains all information about the request
      so that commands can be moved around, queued, delayed or support undo operations
+    Iterator: Enables to access elements of a data collection/container sequentially without need to know its internal
+     implementation. it also helps in having multiple variants of traversing the collection/container. Basically we
+     implement iteration logic separately from main logic of collection/container. This way client and collection remains unchanged.
+     We can add as many iterators as we need.
 
 
