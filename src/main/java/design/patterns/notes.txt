@@ -32,5 +32,11 @@ Behavioural patterns: To assign responsibilities amongst objects
      implementation. it also helps in having multiple variants of traversing the collection/container. Basically we
      implement iteration logic separately from main logic of collection/container. This way client and collection remains unchanged.
      We can add as many iterators as we need.
+    Mediator: Introduces a layer of abstraction(mediator) between communicating objects so that objects communicate via
+     mediator instead of direct communication, thus enabling loose-coupling between objects AND reusability of these objects.
+     Mediator encapsulates all the communication logic. Any future change in communication logic is in mediator,
+     and other objects are least impacted. Basically S of SOLID is taken care of by this pattern.
+    Memento: This pattern enables to implement undoable actions so that state of an object can be restored without clients
+     knowing about internals of object
 
 
