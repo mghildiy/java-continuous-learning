@@ -40,5 +40,9 @@ Behavioural patterns: To assign responsibilities amongst objects
      knowing about internals of object
     Observer: This pattern allows us to implement a pub-sub mechanism so that any changes for an object can be realyed
      to other interested objects with no tight coupling between them
+    Strategy: Enables us to define a group of algorithms for a generic problem, and select one of them based on
+     conditions during runtime. Client decides which algorithm to use and passes it to context object, which just
+     invokes execution method on selected algorithm. This approach differs from inheritance as it uses composition,
+     thus getting rid of compile time coupling.
 
 
