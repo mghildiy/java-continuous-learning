@@ -38,5 +38,7 @@ Behavioural patterns: To assign responsibilities amongst objects
      and other objects are least impacted. Basically S of SOLID is taken care of by this pattern.
     Memento: This pattern enables to implement undoable actions so that state of an object can be restored without clients
      knowing about internals of object
+    Observer: This pattern allows us to implement a pub-sub mechanism so that any changes for an object can be realyed
+     to other interested objects with no tight coupling between them
 
 
